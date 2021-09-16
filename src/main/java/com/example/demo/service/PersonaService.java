@@ -1,4 +1,4 @@
-package service;
+package com.example.demo.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -11,8 +11,9 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.model.Persona;
+import com.example.demo.repository.PersonaRepositrio;
 
-import Repositorio.PersonaRepositrio;
+
 
 @Service
 public class PersonaService implements PersonaRepositrio{
